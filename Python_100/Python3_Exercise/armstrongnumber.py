@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-
+#判断阿姆斯特朗数
 def Is_armstrongnumber(num):
     n = len(str(num))
     
