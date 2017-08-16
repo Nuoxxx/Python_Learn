@@ -3,6 +3,7 @@
 import re
 m = re.match(r'(\w+) (\w+)(?P<sign>.*)', 'hello world!')
 #----------------------------属性--------------------------------
+print("-----------属性---------------")
 # 匹配时使用的文本
 print ("m.string:",m.string)
 # 匹配时使用的Pattern对象    re.compile('(\\w+) (\\w+)(?P<sign>.*)')
@@ -16,6 +17,7 @@ print ("m.lastindex:",m.lastindex)
 # 最后一个被捕获的分组的别名。如果这个分组没有别名或者没有被捕获的分组，将为None   sign
 print ("m.lastgroup:",m.lastgroup)
 #--------------------------方法-----------------------------------
+print("-----------方法---------------")
 # 获得一个或多个分组截获的字符串；指定多个参数时将以元组形式返回  ('hello', 'world')
 print("m.group(1,2):",m.group(1, 2)) 
 # hello world!
