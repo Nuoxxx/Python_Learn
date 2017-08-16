@@ -2,7 +2,7 @@
 from uiautomator import device as d
 import time
 import unittest
-#网上找的程序
+
 class MyTestSuite(unittest.TestCase):
     # 初始化工作
     def setUp(self):
