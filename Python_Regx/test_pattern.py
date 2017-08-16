@@ -39,7 +39,7 @@ print("-----------finditer()---------------")
 for m in re.finditer(r'\d+','one1two2three3four4'):
     print(m.group())
 
-#------------sub()/subn()-----------  subn()会返回替换次数
+#------------sub()/subn()------------- subn()会返回替换次数
 print("-----------sub()/subn()---------------")
 p = re.compile(r'(\w+) (\w+)')
 s = 'i say, hello world!' 
