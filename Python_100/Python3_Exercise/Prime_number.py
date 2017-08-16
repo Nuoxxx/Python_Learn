@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-#判断是否是质数
+# 判断是否是质数
 
 num = int(input("please input a number:"))
 flag = 1

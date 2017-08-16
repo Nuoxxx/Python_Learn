@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 # list 常用操作
 
-
 # list定义
 li = ["a", "mpilgrim", "z", "example"]
 

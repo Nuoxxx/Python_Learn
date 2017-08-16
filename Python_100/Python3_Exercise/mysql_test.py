@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 数据库连接
 import pymysql
 conn = pymysql.connect(user='root', passwd='root',
                  host='localhost', db='zjctest')

@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-#判断是否是闰年
+# 判断是否是闰年
 year = int(input("请输入年份："))
 
 if(year % 4 ==0):
