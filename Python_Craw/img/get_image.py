@@ -2,7 +2,7 @@
 import urllib.request 
 import re
 from bs4 import BeautifulSoup
-# 获取慕课网的图片
+#获取慕课网的图片
 url = "http://coding.imooc.com/"
 
 response = urllib.request.urlopen(url)
