@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 import time
 import datetime
-#获取当前时间，返回的是struct_time元组
+# 获取当前时间，返回的是struct_time元组
 print(time.localtime())
-#暂停1S
+# 暂停1S
 #time.sleep(1)
 #获取格式化的时间   Mon May 15 11:55:46 2017
 print(time.asctime())
