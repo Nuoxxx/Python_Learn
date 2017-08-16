@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-
 #阶乘
 
 def MyFactorial(n):
