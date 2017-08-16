@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# 日期使用
+# calendar日期使用
 import calendar
 
 monthRange = calendar.month(2016, 9)
